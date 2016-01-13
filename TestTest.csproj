@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{00000000-0000-0000-0000-000000000000}</ProjectGuid>
+    <ProjectGuid>{27E548AF-C9F9-4D31-B39C-52E1F0E4C9B3}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
     <AssemblyName>ConsoleApplication</AssemblyName>
@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>TestTest</RootNamespace>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
@@ -38,6 +41,710 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
+    <Content Include=".git\ms-persist.xml" />
+    <Content Include="ProofOfConcept\Assets\AboutAssets.txt" />
+    <Content Include="ProofOfConcept\bin\Debug\Mono.Android.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\bin\Debug\mscorlib.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\bin\Debug\ProofOfConcept.dll" />
+    <Content Include="ProofOfConcept\bin\Debug\ProofOfConcept.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\bin\Debug\ProofOfConcept.dllProofOfConcept.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\bin\Debug\ProofOfConcept.pdb" />
+    <Content Include="ProofOfConcept\bin\Debug\System.Core.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\bin\Debug\System.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\bin\Debug\System.Runtime.Serialization.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\bin\Debug\System.ServiceModel.Internals.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\bin\Debug\System.Xml.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\bin\Debug\System.Xml.Linq.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\bin\Release\Mono.Android.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\bin\Release\mscorlib.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\bin\Release\ProofOfConcept.dll" />
+    <Content Include="ProofOfConcept\bin\Release\ProofOfConcept.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\bin\Release\ProofOfConcept.dllProofOfConcept.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\bin\Release\ProofOfConcept.pdb" />
+    <Content Include="ProofOfConcept\bin\Release\System.Core.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\bin\Release\System.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\bin\Release\System.Runtime.Serialization.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\bin\Release\System.ServiceModel.Internals.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\bin\Release\System.Xml.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\bin\Release\System.Xml.Linq.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Debug\acw-map.txt" />
+    <Content Include="ProofOfConcept\obj\Debug\android\AndroidManifest.xml" />
+    <Content Include="ProofOfConcept\obj\Debug\android\assets\Mono.Android.dll" />
+    <Content Include="ProofOfConcept\obj\Debug\android\assets\Mono.Android.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Debug\android\assets\mscorlib.dll" />
+    <Content Include="ProofOfConcept\obj\Debug\android\assets\mscorlib.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Debug\android\assets\ProofOfConcept.dll" />
+    <Content Include="ProofOfConcept\obj\Debug\android\assets\ProofOfConcept.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Debug\android\assets\System.Core.dll" />
+    <Content Include="ProofOfConcept\obj\Debug\android\assets\System.Core.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Debug\android\assets\System.dll" />
+    <Content Include="ProofOfConcept\obj\Debug\android\assets\System.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Debug\android\assets\System.Runtime.Serialization.dll" />
+    <Content Include="ProofOfConcept\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Debug\android\assets\System.ServiceModel.Internals.dll" />
+    <Content Include="ProofOfConcept\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Debug\android\assets\System.Xml.dll" />
+    <Content Include="ProofOfConcept\obj\Debug\android\assets\System.Xml.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Debug\android\assets\System.Xml.Linq.dll" />
+    <Content Include="ProofOfConcept\obj\Debug\android\assets\System.Xml.Linq.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Debug\android\bin\mono.android.jar" />
+    <Content Include="ProofOfConcept\obj\Debug\android\proofofconcept\proofofconcept\R.java" />
+    <Content Include="ProofOfConcept\obj\Debug\android\src\md50ce351d74ce3953d1fb4f533392015c7\MainActivity.java" />
+    <Content Include="ProofOfConcept\obj\Debug\android\src\mono\android\app\Application.java" />
+    <Content Include="ProofOfConcept\obj\Debug\android\src\mono\android\Seppuku.java" />
+    <Content Include="ProofOfConcept\obj\Debug\android\src\mono\MonoPackageManager.java" />
+    <Content Include="ProofOfConcept\obj\Debug\android\src\mono\MonoRuntimeProvider.java" />
+    <Content Include="ProofOfConcept\obj\Debug\android\src\proofofconcept\proofofconcept\R.java" />
+    <Content Include="ProofOfConcept\obj\Debug\assemblies\Mono.Android.dll" />
+    <Content Include="ProofOfConcept\obj\Debug\assemblies\Mono.Android.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Debug\assemblies\mscorlib.dll" />
+    <Content Include="ProofOfConcept\obj\Debug\assemblies\mscorlib.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Debug\assemblies\ProofOfConcept.dll" />
+    <Content Include="ProofOfConcept\obj\Debug\assemblies\ProofOfConcept.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Debug\assemblies\ProofOfConcept.dllProofOfConcept.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Debug\assemblies\System.Core.dll" />
+    <Content Include="ProofOfConcept\obj\Debug\assemblies\System.Core.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Debug\assemblies\System.dll" />
+    <Content Include="ProofOfConcept\obj\Debug\assemblies\System.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Debug\assemblies\System.Runtime.Serialization.dll" />
+    <Content Include="ProofOfConcept\obj\Debug\assemblies\System.Runtime.Serialization.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Debug\assemblies\System.ServiceModel.Internals.dll" />
+    <Content Include="ProofOfConcept\obj\Debug\assemblies\System.ServiceModel.Internals.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Debug\assemblies\System.Xml.dll" />
+    <Content Include="ProofOfConcept\obj\Debug\assemblies\System.Xml.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Debug\assemblies\System.Xml.Linq.dll" />
+    <Content Include="ProofOfConcept\obj\Debug\assemblies\System.Xml.Linq.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Debug\ProofOfConcept.csproj.FileListAbsolute.txt" />
+    <Content Include="ProofOfConcept\obj\Debug\ProofOfConcept.dll" />
+    <Content Include="ProofOfConcept\obj\Debug\ProofOfConcept.pdb" />
+    <Content Include="ProofOfConcept\obj\Debug\resolved_assemblies.txt" />
+    <Content Include="ProofOfConcept\obj\Debug\res\drawable-hdpi\icon.png" />
+    <Content Include="ProofOfConcept\obj\Debug\res\drawable-ldpi\icon.png" />
+    <Content Include="ProofOfConcept\obj\Debug\res\drawable-mdpi\icon.png" />
+    <Content Include="ProofOfConcept\obj\Debug\res\drawable-xhdpi\icon.png" />
+    <Content Include="ProofOfConcept\obj\Debug\res\drawable-xxhdpi\icon.png" />
+    <Content Include="ProofOfConcept\obj\Debug\res\drawable-xxxhdpi\icon.png" />
+    <Content Include="ProofOfConcept\obj\Debug\res\drawable\icon.png" />
+    <Content Include="ProofOfConcept\obj\Debug\res\layout\main.xml" />
+    <Content Include="ProofOfConcept\obj\Debug\res\values\strings.xml" />
+    <Content Include="ProofOfConcept\obj\Release\acw-map.txt" />
+    <Content Include="ProofOfConcept\obj\Release\android\AndroidManifest.xml" />
+    <Content Include="ProofOfConcept\obj\Release\android\assets\Mono.Android.dll" />
+    <Content Include="ProofOfConcept\obj\Release\android\assets\Mono.Android.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Release\android\assets\mscorlib.dll" />
+    <Content Include="ProofOfConcept\obj\Release\android\assets\mscorlib.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Release\android\assets\ProofOfConcept.dll" />
+    <Content Include="ProofOfConcept\obj\Release\android\assets\ProofOfConcept.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Release\android\assets\shrunk\Mono.Android.dll" />
+    <Content Include="ProofOfConcept\obj\Release\android\assets\shrunk\mscorlib.dll" />
+    <Content Include="ProofOfConcept\obj\Release\android\assets\shrunk\System.Core.dll" />
+    <Content Include="ProofOfConcept\obj\Release\android\assets\shrunk\System.dll" />
+    <Content Include="ProofOfConcept\obj\Release\android\assets\shrunk\System.Runtime.Serialization.dll" />
+    <Content Include="ProofOfConcept\obj\Release\android\assets\shrunk\System.Xml.dll" />
+    <Content Include="ProofOfConcept\obj\Release\android\assets\System.Core.dll" />
+    <Content Include="ProofOfConcept\obj\Release\android\assets\System.Core.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Release\android\assets\System.dll" />
+    <Content Include="ProofOfConcept\obj\Release\android\assets\System.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Release\android\assets\System.Runtime.Serialization.dll" />
+    <Content Include="ProofOfConcept\obj\Release\android\assets\System.Runtime.Serialization.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Release\android\assets\System.ServiceModel.Internals.dll" />
+    <Content Include="ProofOfConcept\obj\Release\android\assets\System.ServiceModel.Internals.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Release\android\assets\System.Xml.dll" />
+    <Content Include="ProofOfConcept\obj\Release\android\assets\System.Xml.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Release\android\bin\mono.android.jar" />
+    <Content Include="ProofOfConcept\obj\Release\android\proofofconcept\proofofconcept\R.java" />
+    <Content Include="ProofOfConcept\obj\Release\android\src\md50ce351d74ce3953d1fb4f533392015c7\MainActivity.java" />
+    <Content Include="ProofOfConcept\obj\Release\android\src\mono\android\app\Application.java" />
+    <Content Include="ProofOfConcept\obj\Release\android\src\mono\MonoPackageManager.java" />
+    <Content Include="ProofOfConcept\obj\Release\android\src\mono\MonoRuntimeProvider.java" />
+    <Content Include="ProofOfConcept\obj\Release\android\src\proofofconcept\proofofconcept\R.java" />
+    <Content Include="ProofOfConcept\obj\Release\assemblies\Mono.Android.dll" />
+    <Content Include="ProofOfConcept\obj\Release\assemblies\Mono.Android.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Release\assemblies\mscorlib.dll" />
+    <Content Include="ProofOfConcept\obj\Release\assemblies\mscorlib.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Release\assemblies\ProofOfConcept.dll" />
+    <Content Include="ProofOfConcept\obj\Release\assemblies\ProofOfConcept.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Release\assemblies\ProofOfConcept.dllProofOfConcept.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Release\assemblies\System.Core.dll" />
+    <Content Include="ProofOfConcept\obj\Release\assemblies\System.Core.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Release\assemblies\System.dll" />
+    <Content Include="ProofOfConcept\obj\Release\assemblies\System.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Release\assemblies\System.Runtime.Serialization.dll" />
+    <Content Include="ProofOfConcept\obj\Release\assemblies\System.Runtime.Serialization.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Release\assemblies\System.ServiceModel.Internals.dll" />
+    <Content Include="ProofOfConcept\obj\Release\assemblies\System.ServiceModel.Internals.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Release\assemblies\System.Xml.dll" />
+    <Content Include="ProofOfConcept\obj\Release\assemblies\System.Xml.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Release\assemblies\System.Xml.Linq.dll" />
+    <Content Include="ProofOfConcept\obj\Release\assemblies\System.Xml.Linq.dll.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ProofOfConcept\obj\Release\ProofOfConcept.csproj.FileListAbsolute.txt" />
+    <Content Include="ProofOfConcept\obj\Release\ProofOfConcept.dll" />
+    <Content Include="ProofOfConcept\obj\Release\ProofOfConcept.pdb" />
+    <Content Include="ProofOfConcept\obj\Release\resolved_assemblies.txt" />
+    <Content Include="ProofOfConcept\obj\Release\res\drawable-hdpi\icon.png" />
+    <Content Include="ProofOfConcept\obj\Release\res\drawable-ldpi\icon.png" />
+    <Content Include="ProofOfConcept\obj\Release\res\drawable-mdpi\icon.png" />
+    <Content Include="ProofOfConcept\obj\Release\res\drawable-xhdpi\icon.png" />
+    <Content Include="ProofOfConcept\obj\Release\res\drawable-xxhdpi\icon.png" />
+    <Content Include="ProofOfConcept\obj\Release\res\drawable-xxxhdpi\icon.png" />
+    <Content Include="ProofOfConcept\obj\Release\res\drawable\icon.png" />
+    <Content Include="ProofOfConcept\obj\Release\res\layout\main.xml" />
+    <Content Include="ProofOfConcept\obj\Release\res\values\strings.xml" />
+    <Content Include="ProofOfConcept\ProofOfConcept.csproj" />
+    <Content Include="ProofOfConcept\ProofOfConcept.csproj.user" />
+    <Content Include="ProofOfConcept\Properties\AndroidManifest.xml" />
+    <Content Include="ProofOfConcept\Resources\AboutResources.txt" />
+    <Content Include="ProofOfConcept\Resources\drawable-hdpi\Icon.png" />
+    <Content Include="ProofOfConcept\Resources\drawable-ldpi\Icon.png" />
+    <Content Include="ProofOfConcept\Resources\drawable-mdpi\Icon.png" />
+    <Content Include="ProofOfConcept\Resources\drawable-xhdpi\Icon.png" />
+    <Content Include="ProofOfConcept\Resources\drawable-xxhdpi\Icon.png" />
+    <Content Include="ProofOfConcept\Resources\drawable-xxxhdpi\Icon.png" />
+    <Content Include="ProofOfConcept\Resources\drawable\Icon.png" />
+    <Content Include="ProofOfConcept\Resources\mipmap-hdpi\Icon.png" />
+    <Content Include="ProofOfConcept\Resources\mipmap-mdpi\Icon.png" />
+    <Content Include="ProofOfConcept\Resources\mipmap-xhdpi\Icon.png" />
+    <Content Include="ProofOfConcept\Resources\mipmap-xxhdpi\Icon.png" />
+    <Content Include="ProofOfConcept\Resources\mipmap-xxxhdpi\Icon.png" />
+    <Content Include="ProofOfConcept\Resources\values\Strings.xml" />
+    <Content Include="ProofOfConcept\zipalign.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\COMMIT_EDITMSG" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\FETCH_HEAD" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\remotes\origin\master" />
+    <None Include=".git\objects\00\0629ad488301a663e7f2e44dcc48b617751c01" />
+    <None Include=".git\objects\00\23f13d996b2e3226fef7ca898d8ef594efb99c" />
+    <None Include=".git\objects\00\648b7424561d09578301647265b96acd6e4e6f" />
+    <None Include=".git\objects\02\49ff51f00b4e21983656242f9496d482bf902a" />
+    <None Include=".git\objects\02\bf5ae8cf7104a6c4c17ebfb65dd4cfac4f11e4" />
+    <None Include=".git\objects\03\8c43850901e1a42421b4ba0d63aeaefe7c0887" />
+    <None Include=".git\objects\03\d847fec39a851ae0e12aa4b340011b3b2471be" />
+    <None Include=".git\objects\05\2adfcd0ca73a94144fb85029ae3c66db993ff9" />
+    <None Include=".git\objects\06\3d880cd0ed8d0a5b781059b5b53ddd0498c1d1" />
+    <None Include=".git\objects\06\6032cdc51970afc8195ab59fb5638f5a62cd09" />
+    <None Include=".git\objects\06\c6402e7027bb203d165043163436a4210a6c45" />
+    <None Include=".git\objects\07\8b9d662839dc40de0a4174b75c4daa6812a376" />
+    <None Include=".git\objects\07\ea13ae7a0de9ad44c7f932693da55121c3d23a" />
+    <None Include=".git\objects\08\de15697eda3386443aeadc58d07d771082a4fe" />
+    <None Include=".git\objects\09\089e1293eb878270335ac15e272431f7d8e102" />
+    <None Include=".git\objects\0a\a225f2b3b35b2a5a11f80b8cfa8630cb8815e2" />
+    <None Include=".git\objects\0d\65a1a5598f058e0a1b23f122bf6f5ae6d19953" />
+    <None Include=".git\objects\0d\d048b5373475e226a86c45e9ce830f52467282" />
+    <None Include=".git\objects\0e\c9aee624dfc9d023552efa241cf7ff9e1409f8" />
+    <None Include=".git\objects\0f\fa47349a4e6e640096293d655f4f936a632309" />
+    <None Include=".git\objects\10\f52d46021dff0e36a01c8aff6a464670c3505d" />
+    <None Include=".git\objects\11\0f73fc8cfc30b3133838ba3364f57230b02cc7" />
+    <None Include=".git\objects\11\62c36bf83894420ae983c2c0090291a6f81089" />
+    <None Include=".git\objects\11\a796975e19850729933a8e581b5527c7166008" />
+    <None Include=".git\objects\12\46c12b4079414eb9d5f7878925410feaae4796" />
+    <None Include=".git\objects\14\9b6bdf43ed5e2fb5ccd823eeffb710c9707b3c" />
+    <None Include=".git\objects\19\58e8be1aadd64594fe88068539aee68a53c5b6" />
+    <None Include=".git\objects\1b\1d7b35f9b72851062c575ac9a9c089430a7e76" />
+    <None Include=".git\objects\1c\b23a12803dfe3a944bf42cd92cb02328520f48" />
+    <None Include=".git\objects\1c\b50cafbfb351b565880a734ef3fa869faedfbf" />
+    <None Include=".git\objects\1d\cb37486de8fbe4538c63062c71be9606267365" />
+    <None Include=".git\objects\1e\0995e35d71f31c2e37c1faf208053267b113e8" />
+    <None Include=".git\objects\1e\48c27c5adde5f091492b32e1bd94afe737c2fd" />
+    <None Include=".git\objects\1f\f0c423042b46cb1d617b81efb715defbe8054d" />
+    <None Include=".git\objects\23\00d33203cf899d1f3f755c976796680eed5068" />
+    <None Include=".git\objects\24\d376eec52c82fb18d9c3075c59464af222f661" />
+    <None Include=".git\objects\25\f6e3e2bc2614a2100bca2e1330db523373709e" />
+    <None Include=".git\objects\26\f4b33ab70a3423c446c74536b21b51c7ff2bfd" />
+    <None Include=".git\objects\27\0e8cf719013f2240ddc823c30f77d4d59c1907" />
+    <None Include=".git\objects\27\fe1f8903b83679754d7367992a9bcb6beac669" />
+    <None Include=".git\objects\28\2bae599089bf2dd9a15a530a5d91ab45d6e069" />
+    <None Include=".git\objects\28\3958e89c339142352475ae825490692fb5e099" />
+    <None Include=".git\objects\28\7994b12a9385cc1f02f67477d197c55309a795" />
+    <None Include=".git\objects\29\8d470d44e4a1a04f6da0568175d5b19a9a93eb" />
+    <None Include=".git\objects\2b\0f58a5c6cc0458b552f35ec861263e9e802de2" />
+    <None Include=".git\objects\2b\39e212f442fda33593d03d992bff69eef7277b" />
+    <None Include=".git\objects\2c\23ce59298ec231f6e2dbd643ead1746cf8dd6b" />
+    <None Include=".git\objects\2e\4cda98060ced6af4d14a774f00e5eaabcbb2cb" />
+    <None Include=".git\objects\2e\cd754c5e48e0056ec78278fe060741fe154494" />
+    <None Include=".git\objects\30\86535394343ceb21d599f7644e80cd4bc79977" />
+    <None Include=".git\objects\31\9b42c361f096d2f6f1e785f1173ed33c025606" />
+    <None Include=".git\objects\32\01a5e4ced8805226361895e25818c5cf33a644" />
+    <None Include=".git\objects\32\1704df5d4139c8ef7a1b44893fce2673e451e3" />
+    <None Include=".git\objects\33\d2db4c29614e240e5acae902db21c994791c38" />
+    <None Include=".git\objects\34\2bfeefc646df7dae2ddc6a98afaa298612985d" />
+    <None Include=".git\objects\35\17f6524e14373d9975ef305c7bcff1a21b068f" />
+    <None Include=".git\objects\35\433077485fd9ba12e48d961dd56ff3be8348e1" />
+    <None Include=".git\objects\35\a8434aca63d87f4f833395786512a460ed107c" />
+    <None Include=".git\objects\36\799bfd78218e2aeea2120d037ba4413a971e3f" />
+    <None Include=".git\objects\37\6b2c5224fa48eebebbe16f8b27fa3c3a4b6f80" />
+    <None Include=".git\objects\38\0b1c8571ee1e1178a0f806391555b66ff69884" />
+    <None Include=".git\objects\39\592aba9dcb66c34645fd428e2cea30dd97e6eb" />
+    <None Include=".git\objects\39\96d50bb9eb940de1982027c46fe983cb04c70a" />
+    <None Include=".git\objects\3b\655a3fd4b3c0ae5ed0f22d1ba1aa4a9b45ebd0" />
+    <None Include=".git\objects\3b\700c3bb401c9d1b5f71ac33101a6e4b3fda366" />
+    <None Include=".git\objects\3b\abdee142dbcebdabe28873a94b664b5a8e8adb" />
+    <None Include=".git\objects\3c\8a32cc9bed8ab098c7ed16f5675bc51c0533ec" />
+    <None Include=".git\objects\3c\95071f859d1ca0701fe784425219175f59399f" />
+    <None Include=".git\objects\3e\0f898e33225aad887e40c9107718892b0a466c" />
+    <None Include=".git\objects\3f\0dbe0141ea842d64294725db11804bbec18503" />
+    <None Include=".git\objects\3f\453594c04a19e262624a3bd6c0b6e8315913e3" />
+    <None Include=".git\objects\41\27472ddad45825069ee5706cd3fb2772f9542d" />
+    <None Include=".git\objects\41\52cc49266fcbace07d14fc80fea9f022880eb2" />
+    <None Include=".git\objects\43\52456805693ef6b33616bdc8e26daafcc5e4bc" />
+    <None Include=".git\objects\43\7c4c29171caaee37ac40cdb97583a7143befb9" />
+    <None Include=".git\objects\44\4f0c0e602f277f3f63d0383f880eac151f2138" />
+    <None Include=".git\objects\44\a288cf85798031a7072be845a408dbc5404f48" />
+    <None Include=".git\objects\46\05da7ec34c3d05bd81815a32d9e414b47af69d" />
+    <None Include=".git\objects\46\afc569d993ca56672762813d7b52de44447f01" />
+    <None Include=".git\objects\48\6de05412959921bef7bf1082d1e58e8abe9090" />
+    <None Include=".git\objects\48\e7f691d925adddb9ba9e1958c93d5632ae3422" />
+    <None Include=".git\objects\49\33f72b0b808aa6c07466276d7d1aec48be808b" />
+    <None Include=".git\objects\49\a79c0b34c53812e0b03c244218fbbeb23e643e" />
+    <None Include=".git\objects\4b\9d350e2d15978bee2054af0ddf84ec5d39f4ae" />
+    <None Include=".git\objects\4d\4200b400b77aeac8af1716e791bf90052156cb" />
+    <None Include=".git\objects\4d\84428d2588099e167be1e6a32353789c933b9e" />
+    <None Include=".git\objects\4f\0cada3b2d997e0eb7f033e9d5885c0a7529b43" />
+    <None Include=".git\objects\4f\55d7bcc0e44aea30e82469a4865365f386ace9" />
+    <None Include=".git\objects\4f\dc68c506f1b37c2124243879a04ffca20e8b18" />
+    <None Include=".git\objects\50\087bf721a161389cec26f9a41ecb50bcd90d0f" />
+    <None Include=".git\objects\52\13924036b0ced0f7b3140a40f555a76ea698c7" />
+    <None Include=".git\objects\52\9ddbda78cc15908e0dce84f9ca6441a2be876c" />
+    <None Include=".git\objects\53\9c87426c797d8c10479a1eb4e97fe701ae3155" />
+    <None Include=".git\objects\56\83a895f7a8cd4835192ad861fb41b01726fcb9" />
+    <None Include=".git\objects\57\0b43b925108bd2ab5aa608eaf9e5d2f471b1d7" />
+    <None Include=".git\objects\57\8185b3f93d681119d8aa5ec52499c61ee4ba26" />
+    <None Include=".git\objects\57\8c8833285b9aed1ff8dbbe753ed1cf0e0f464f" />
+    <None Include=".git\objects\57\c9038fae8836b7d5263a1732f8fa51709734a0" />
+    <None Include=".git\objects\59\232c2d7277a58df708faecab6a66ad3720414c" />
+    <None Include=".git\objects\5a\43b98bfa1dc7181021dbe5bc9526d356c9ef63" />
+    <None Include=".git\objects\5a\e8b1be82a27e3b1d487cb9bbf27d5c53ff5ec7" />
+    <None Include=".git\objects\5b\24116a312fa0b1d45c6d2446436911c26b5a92" />
+    <None Include=".git\objects\5b\4d96c863dbcf959f51b42d28e51fcaec2dbff6" />
+    <None Include=".git\objects\5c\ad961fe3a8e700e7414fb674b2b534991bf4c4" />
+    <None Include=".git\objects\5d\12976383e99d32edeb59f33a7fb3a18fda2a10" />
+    <None Include=".git\objects\60\06f4cd0bc586000c081e04366d4b3bb1cca51e" />
+    <None Include=".git\objects\60\99112f9a4c940456979b536a945a0e707ad3ef" />
+    <None Include=".git\objects\61\6bdd217fad50ecb293e07950e70e0490137709" />
+    <None Include=".git\objects\61\89d6f78d8447aa331fcd1e968459e4c7e0b495" />
+    <None Include=".git\objects\64\a8b607fe02882261bf0ff2f4ff0bc699bb70ca" />
+    <None Include=".git\objects\64\b523e733ad6a5fd8d1587ef617dd6d49ea05a6" />
+    <None Include=".git\objects\65\27bbcb6190a91a631d9dfdc8fec2b833c8fd6c" />
+    <None Include=".git\objects\65\70433bcad13210bd333ab99b0d1316021b09ca" />
+    <None Include=".git\objects\65\7fffd7ebeb7f27bbdd36282e7959342ec91338" />
+    <None Include=".git\objects\66\26e59f2abb99bbab5a3b17b05e172578ef3414" />
+    <None Include=".git\objects\67\40e699ff72e77bf3f60dd9a703059a079cbe28" />
+    <None Include=".git\objects\67\b7d6f6512dd7dab5742b59f3eea7fe8f7d1727" />
+    <None Include=".git\objects\67\e3e874129f8c5206f8e955e259c2c708a67262" />
+    <None Include=".git\objects\6a\a40e6842976f7e8b03e1712b6c450839447414" />
+    <None Include=".git\objects\6a\bcce55a5ab11ac0f77137bb6f14493b22db1d5" />
+    <None Include=".git\objects\6a\e490797702c7ee1c0c120ccaf0970c299fda33" />
+    <None Include=".git\objects\6b\f406a1bfeef63adeb007d0c47bb8bed75f967b" />
+    <None Include=".git\objects\6d\2355cddcd9bde9d9049b32bf52634f9835b52e" />
+    <None Include=".git\objects\6d\9919c41a3b6d896721375965ede137422c8598" />
+    <None Include=".git\objects\6e\383701aeb53badf03ff45d68c78332051e5c84" />
+    <None Include=".git\objects\6e\8fc15a9d4537b89a10f9b9f5a336ef8462a197" />
+    <None Include=".git\objects\6e\f163bed3ab58c4b985d922245f4fba95c292e7" />
+    <None Include=".git\objects\6f\d56d92f61d463a06a080c2f6eaef33747c1a35" />
+    <None Include=".git\objects\70\08157c57cb21ec988dbf5c5c676349bcf1daa8" />
+    <None Include=".git\objects\70\9db245dba96914506d13153e3ce9726dea9ab1" />
+    <None Include=".git\objects\72\073bb69e45a6729b1642236ce8442f31a16bb4" />
+    <None Include=".git\objects\73\2f4439317547654ab952bbdc130fb9ac8edf91" />
+    <None Include=".git\objects\74\d9acc19c43ffc4ae3f035d784dc8c3490b31f1" />
+    <None Include=".git\objects\76\ccdb489141fbb91d1cba931b2963d512ce5f24" />
+    <None Include=".git\objects\76\df743ed48b0750e8b3c9662cb0b4f94759b2f5" />
+    <None Include=".git\objects\77\5d6c1a0c8a9377aa3f283b9b53416431867da6" />
+    <None Include=".git\objects\78\10246b60477cce75b888bab1b2673f77425f8b" />
+    <None Include=".git\objects\78\49bccc54077cc8c48b6c3bd9b25d8292b32e1c" />
+    <None Include=".git\objects\79\11b2a9e5c912d7c8d4de4e59d8b975d8eeb711" />
+    <None Include=".git\objects\7b\ddcdd58e02800a34553daeecc7954f13107c77" />
+    <None Include=".git\objects\7c\aff3b3e33ed9947fe2307a5cc7c0c2a15b2c60" />
+    <None Include=".git\objects\7c\b637a27627491e75b59cfae1437f8b53e06b58" />
+    <None Include=".git\objects\7c\d40536cc75e84c882f26f1eab4a01ee5e7fc3b" />
+    <None Include=".git\objects\7d\1b1de5786cb0a5bdc019802ba8db092b44a16b" />
+    <None Include=".git\objects\7e\03f94b17b479d9bb501212d506239126f7663b" />
+    <None Include=".git\objects\7e\162677694b73ee6cb8af8837c8e582cac7fd29" />
+    <None Include=".git\objects\7f\20a96067cf4abc9081cd71ed4774912f7cdda6" />
+    <None Include=".git\objects\7f\d52b77465f4c975e2f12f38b25c0ed33624381" />
+    <None Include=".git\objects\80\74c4c571b8cd19e27f4ee5545df367420686d7" />
+    <None Include=".git\objects\80\fb3f710c94bd360df0280fe8ffd543738066ba" />
+    <None Include=".git\objects\81\1282eb99460fc778308f3cd1fda327539e6263" />
+    <None Include=".git\objects\81\76542fd5f09d3a421962c30c5fff6398ba082e" />
+    <None Include=".git\objects\82\352c01ad0028ea41a8c5269f295c5c45be8111" />
+    <None Include=".git\objects\82\6f7136f39852960b427a3dd02c34e0bd44a2fd" />
+    <None Include=".git\objects\87\f577c7f3d8736eb160244e458a8bb79fa9f3ed" />
+    <None Include=".git\objects\88\144a7a06c3a557a7584e7be48d2f0b3220736b" />
+    <None Include=".git\objects\88\d4992203a6af55986256c9fd2ddae4955906f6" />
+    <None Include=".git\objects\89\09ddd7aba4480d0d4b88ee571c0a97772eeb51" />
+    <None Include=".git\objects\89\5308eed80c026a301dbba1cab15a83b8d75ab2" />
+    <None Include=".git\objects\8c\d1cd40b4c2a6a412a789ac72cd00ff615391a5" />
+    <None Include=".git\objects\8d\20a38d1782921964638e873ffc98d148ebda6a" />
+    <None Include=".git\objects\8d\3f4900b57a482641541112b3e2fd6c5758d408" />
+    <None Include=".git\objects\8e\073d75898f92e23ef644d1cb3eacd872b890b9" />
+    <None Include=".git\objects\8e\6e9c1fe81b83d6410b1060f251350a2b1699ac" />
+    <None Include=".git\objects\8f\1823c5d4a8816d38e6b1da551b7b593a066383" />
+    <None Include=".git\objects\8f\6a73ed8a7798ff588738c18e601390c80eabef" />
+    <None Include=".git\objects\90\0dc7da6ee1c60369123ebc448ba443a57901e4" />
+    <None Include=".git\objects\90\b2571a4f9d44343d01d12a7719fbaa8ebc3723" />
+    <None Include=".git\objects\92\dc21375862ef8f39d67ea7d61f67934fde4d34" />
+    <None Include=".git\objects\93\7bfdccc443f934fd61b8718db76a6003d5541f" />
+    <None Include=".git\objects\94\9d56ce845ab15d7a70696552325037742da77f" />
+    <None Include=".git\objects\94\ac6314ef7533ff32a3550f11e484b5bdd76526" />
+    <None Include=".git\objects\94\f4cecc5619cd8f24bdfab0d9aeaee995887d1d" />
+    <None Include=".git\objects\95\107e365879befdd138d0af4fa452df24fb392d" />
+    <None Include=".git\objects\96\94ef971f9682af8263352d7f7280870e183230" />
+    <None Include=".git\objects\97\8a9c93025e941dd9ccdf920d8f44358b6f7a53" />
+    <None Include=".git\objects\97\d46eadcdd4daf72fe7348060a88dac54da7878" />
+    <None Include=".git\objects\98\454c53653df303626d4422f12d57cdf72a16e4" />
+    <None Include=".git\objects\98\be1643efa25bdaae3905b6602ceac0cc29c578" />
+    <None Include=".git\objects\9a\747f91fb789aa278c8d76a0afa012c48c9ede6" />
+    <None Include=".git\objects\9c\551d89ddacd4e51e2bc0323226acfa1a8a7faf" />
+    <None Include=".git\objects\9f\64f054d2eb1f1f31d6f8da69f97fc60d2de31c" />
+    <None Include=".git\objects\a1\b2dc9145703a0f2e9ba016b788ac9c055d12d7" />
+    <None Include=".git\objects\a3\0b4f5e2a7b4a3a40d88c7e5741d74bdbb706c7" />
+    <None Include=".git\objects\a6\1dd5c1d60368634c7de4c5c99b89ca74e457f3" />
+    <None Include=".git\objects\a6\69b62a7f43d9358fde9ff654fe08e126550d36" />
+    <None Include=".git\objects\a9\7e7ae55766b0e5f1c16c57ff4242898552af1d" />
+    <None Include=".git\objects\a9\b0638eb1b0333e29892a9339245be20903b721" />
+    <None Include=".git\objects\a9\e16217270f9103c495fb0765a9e79dc6cb27a0" />
+    <None Include=".git\objects\aa\4977858fa8d150a27a0ea944213b20e32dd54c" />
+    <None Include=".git\objects\ab\7ffb9596389fcbb1c9794ac3b4690476eccf73" />
+    <None Include=".git\objects\ab\810cd54d2b709050cacad8c808f013940730b5" />
+    <None Include=".git\objects\af\8ea81bc3779fb9f4c15d7b547c7daaaafc8e02" />
+    <None Include=".git\objects\af\d19df6b78c8517071574772a73cb49d80538c4" />
+    <None Include=".git\objects\b0\8c0cb5065fae180ed4d865670645acba2a5e7c" />
+    <None Include=".git\objects\b1\6a3a3ede00f4e4d519712b53b53243a15b1731" />
+    <None Include=".git\objects\b2\398363b92d85880185d7552b0194a19c3e0c1e" />
+    <None Include=".git\objects\b2\4e408139ea84a6c5fb9a5a95a81a4ab8435410" />
+    <None Include=".git\objects\b2\e7efffff57831454b8da46f9ae2fe95cada599" />
+    <None Include=".git\objects\b3\102eadaac4b0f6d70a60262d899bed6502098e" />
+    <None Include=".git\objects\b3\1146c51f4b6ee25baec600cd4808027a80aad2" />
+    <None Include=".git\objects\b4\d194475915145d99e23c8f37746b3ec53d4741" />
+    <None Include=".git\objects\b4\f5a246d25bd7edb718293eb934ad910b96890b" />
+    <None Include=".git\objects\b6\cee498860bdb7d3f6bc287d46ed66d365c7c2c" />
+    <None Include=".git\objects\b7\4f28d782c53a726515d06d1b7c9e346a516262" />
+    <None Include=".git\objects\b7\e2e57aa90f8687bdfa19d82ff6bda71535b8d5" />
+    <None Include=".git\objects\b8\cacbf46b613c13a25cb043e447416f0fa9fe83" />
+    <None Include=".git\objects\b9\25ff912ec7666ed58c51e31673e04364a9c016" />
+    <None Include=".git\objects\b9\e2936053aa9f2d14027374ed3657c53b41e3c9" />
+    <None Include=".git\objects\ba\7799f43be56391a795a54122fdc5b6702afeee" />
+    <None Include=".git\objects\bb\f2cacff14e1ec5afd5ceb97bda62fe4e144dd5" />
+    <None Include=".git\objects\bd\0d1620519fc0de41b9a890444d2292b4a3a5b7" />
+    <None Include=".git\objects\bd\9cb5361ac3810b30e4028e267f36804ea32cbe" />
+    <None Include=".git\objects\be\9c38e1b55c42cc8265e86bcb9cb597fad02658" />
+    <None Include=".git\objects\be\b435f8a3df03eda97f36720e8e0530594b6963" />
+    <None Include=".git\objects\bf\e3558a722011163f30ff4ead4b0ee4b6080b78" />
+    <None Include=".git\objects\c0\060066d9b1fe956f6be94bd460544bdd012a84" />
+    <None Include=".git\objects\c1\f14b3ed9c73215ee93ba01dcc199b4c6cc94ee" />
+    <None Include=".git\objects\c2\3394e78348ba1dd55288e6dc74a3461917df14" />
+    <None Include=".git\objects\c2\bca974c48c0e46c8a1124409aeb74be2938fed" />
+    <None Include=".git\objects\c3\5b728375bc6bf80eb227a86259719dd41316a9" />
+    <None Include=".git\objects\c4\bab957b3642f0ac53a03f7b5aa6b0e43f98716" />
+    <None Include=".git\objects\c4\efc983ca4ce9dea5d171ee969489754114d37d" />
+    <None Include=".git\objects\c9\e3ac8f93aa98c77d3baa5aee58a826c30c6145" />
+    <None Include=".git\objects\cb\748af8314a7f55d7182678ae3ca65efc24bf6b" />
+    <None Include=".git\objects\cb\ef1fcca010fca0af61f56d2598db193ac76912" />
+    <None Include=".git\objects\ce\9266c071a3b829337f572ad6534778c55d9418" />
+    <None Include=".git\objects\cf\b8eaf2d8e5b1007e4d253fbe367a613b9cc510" />
+    <None Include=".git\objects\d1\8ea640eb5b871fbe970d18fe428ce4caf4872a" />
+    <None Include=".git\objects\d2\240a9939375931a2b9234471d2c6334699a6d1" />
+    <None Include=".git\objects\d2\f028450092ffb7224dcd35467681599ba4a3ff" />
+    <None Include=".git\objects\d3\864ca8419b10cb9b0580465968cad62259ae3d" />
+    <None Include=".git\objects\d6\c7ebc3883a1f1ba30e0e07cbd153e5b73dd793" />
+    <None Include=".git\objects\d6\e54dc6f97935d62b6db7103bad8f82ef5f3559" />
+    <None Include=".git\objects\d7\4d7c0cdbd46b65ff6c0657fd5ef2ab72c9a9a5" />
+    <None Include=".git\objects\d8\2654e0f99c3781386a5f5cf3d73c0d3279feba" />
+    <None Include=".git\objects\d8\9f6fa8ba1f68ac15325d463075653f7b4b89c8" />
+    <None Include=".git\objects\d9\82ddba669d5f5cf53fec5ba9a6e3a4be45fc7c" />
+    <None Include=".git\objects\d9\a17f5a90c688221d37c3344e9441e680fd6419" />
+    <None Include=".git\objects\d9\d00e7c9f479e853d4ed86919cbf1c6cb49658f" />
+    <None Include=".git\objects\da\1cf179111b2e8aabf2a1f6b7a9e4fa67d8d250" />
+    <None Include=".git\objects\da\9fd9ce8026e4c018c504bbc7c9c7f03584f039" />
+    <None Include=".git\objects\db\157221bbf1909fe22fd4b2d1cb5ecee8c162d3" />
+    <None Include=".git\objects\db\9fe16df1ccae0e7b7c19ac26b6699b67ed78c6" />
+    <None Include=".git\objects\dd\388d91a56700e50ab37c16dd388083fec6ad04" />
+    <None Include=".git\objects\de\80df497782ba4bb1b44c69da795db64fac7eae" />
+    <None Include=".git\objects\e0\2846661d90fcfc89d04798a6a6f73a805dcc5a" />
+    <None Include=".git\objects\e0\4ef8f660e0a8d988f284d3b29d7f8a63a32b05" />
+    <None Include=".git\objects\e1\3b7bca724c68e2878f14ff279caec26e8e8957" />
+    <None Include=".git\objects\e2\892383bf53de5f97e582bc3c0117711975c821" />
+    <None Include=".git\objects\e4\0101e6f18ca33528074287fd844e9b119b5c7b" />
+    <None Include=".git\objects\e4\2cf9fe052092c8c12df0758992c949216e6770" />
+    <None Include=".git\objects\e5\1f48c69232150b2c6042a69daed27e0ed5c04f" />
+    <None Include=".git\objects\e6\9de29bb2d1d6434b8b29ae775ad8c2e48c5391" />
+    <None Include=".git\objects\e6\abd58e865e3beb5823c2111a0819c3cb0aaa21" />
+    <None Include=".git\objects\e8\2aa8a08127cc3e4fb8a603f220003cefc350e6" />
+    <None Include=".git\objects\e8\4a68898591b5f9dbf97c609503a19d59708a35" />
+    <None Include=".git\objects\e9\367a9fe62e9612b008071f855d4969fe5c0857" />
+    <None Include=".git\objects\e9\c31d067283c093074aa00b60ecb0839107d5d5" />
+    <None Include=".git\objects\e9\d4f6a411d287772e1bce4e70df5a8d78171d50" />
+    <None Include=".git\objects\ea\3660adbf8232a7c254ad8419aa4f8d1269e476" />
+    <None Include=".git\objects\eb\9b2db34d5204d9bbc358102a15d6189bb7dbc5" />
+    <None Include=".git\objects\eb\a7fafca111adf2a413464548327ce530ad46b6" />
+    <None Include=".git\objects\ec\16d7fdb09be5405bf8624d00ee4c16c61a01d6" />
+    <None Include=".git\objects\ed\b8ce962f61b0e4d628b00ee34b027066d262b9" />
+    <None Include=".git\objects\ed\d13bce59d1ea09dd9d64584ae4f99113a1d01b" />
+    <None Include=".git\objects\ed\e1befed5b8fe0475c6bb12c840625855ecc3fc" />
+    <None Include=".git\objects\ed\fb9027ef7809aa548ae3fa3dc9553eab50dcac" />
+    <None Include=".git\objects\ee\398862952bafe50d49602ee31bac4283f089ff" />
+    <None Include=".git\objects\ee\fccb3f142dc49f3de0673b9a96e02aec8dfd52" />
+    <None Include=".git\objects\ef\1e1ee7dc3dc5cdf4a8d4c0f5aa16aaa24f2889" />
+    <None Include=".git\objects\ef\5d4bc008eefd3bcb75b432dfcd1f4c7010567c" />
+    <None Include=".git\objects\f0\4a9ef8c6d70f3cf74d99a3928718c5a97a9cb6" />
+    <None Include=".git\objects\f0\717d8e0f6200663f2af8cd4e9f868366964d48" />
+    <None Include=".git\objects\f0\ce11d987e57a5dbb24805187f43e6bc5eb1d71" />
+    <None Include=".git\objects\f1\9deba0655f1874e62150a957fb0308c86a8f62" />
+    <None Include=".git\objects\f2\8bff35c46eb183032e54d93610466841fb9acd" />
+    <None Include=".git\objects\f4\c804644c5e47daffed8e8573b5da99d0939bc0" />
+    <None Include=".git\objects\f6\1610042ab31b416e39d7fd26c0984e2f2cb1bc" />
+    <None Include=".git\objects\f6\5afbd893250d27d854096359e9332fac008428" />
+    <None Include=".git\objects\f8\17a33aa6041a61046ea45c91ecfceed25b1361" />
+    <None Include=".git\objects\f9\505d47fd3677a80bd4487fb63306de7f66c0b5" />
+    <None Include=".git\objects\f9\519ab6ad55d61523cddf4102a78d2554d65b5e" />
+    <None Include=".git\objects\f9\95f0c522de9e81860a5d047f8d69aad4ee6cf0" />
+    <None Include=".git\objects\fa\e80caf4e42ebc2d5bb7c2d7d3de3296a79850b" />
+    <None Include=".git\objects\fc\d438d5675fa515a1cd57fa622ae52c4f690e52" />
+    <None Include=".git\objects\fd\c47a6abebce520500708fc4151b8c40557fa6d" />
+    <None Include=".git\objects\fe\41d9ea93d84899548bac3c287151103e9f5d07" />
+    <None Include=".git\objects\ff\ae5512951949af0214ca633d253800b3e4c29f" />
+    <None Include=".git\ORIG_HEAD" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\origin\master" />
+    <None Include="ProofOfConcept.userprefs" />
+    <None Include="ProofOfConcept\bin\Release\ProofOfConcept.ProofOfConcept-Signed.apk" />
+    <None Include="ProofOfConcept\bin\Release\ProofOfConcept.ProofOfConcept.apk" />
+    <None Include="ProofOfConcept\GettingStarted.Xamarin" />
+    <None Include="ProofOfConcept\helloworld.apk" />
+    <None Include="ProofOfConcept\obj\Debug\android\assets\machine.config" />
+    <None Include="ProofOfConcept\obj\Debug\android\bin\classes.dex" />
+    <None Include="ProofOfConcept\obj\Debug\android\bin\classes\md50ce351d74ce3953d1fb4f533392015c7\MainActivity.class" />
+    <None Include="ProofOfConcept\obj\Debug\android\bin\classes\mono\android\app\Application%24NotifyTimeZoneChanges.class" />
+    <None Include="ProofOfConcept\obj\Debug\android\bin\classes\mono\android\app\Application.class" />
+    <None Include="ProofOfConcept\obj\Debug\android\bin\classes\mono\android\Seppuku.class" />
+    <None Include="ProofOfConcept\obj\Debug\android\bin\classes\mono\MonoPackageManager.class" />
+    <None Include="ProofOfConcept\obj\Debug\android\bin\classes\mono\MonoPackageManager_Resources.class" />
+    <None Include="ProofOfConcept\obj\Debug\android\bin\classes\mono\MonoRuntimeProvider.class" />
+    <None Include="ProofOfConcept\obj\Debug\android\bin\classes\proofofconcept\proofofconcept\R%24attr.class" />
+    <None Include="ProofOfConcept\obj\Debug\android\bin\classes\proofofconcept\proofofconcept\R%24drawable.class" />
+    <None Include="ProofOfConcept\obj\Debug\android\bin\classes\proofofconcept\proofofconcept\R%24id.class" />
+    <None Include="ProofOfConcept\obj\Debug\android\bin\classes\proofofconcept\proofofconcept\R%24layout.class" />
+    <None Include="ProofOfConcept\obj\Debug\android\bin\classes\proofofconcept\proofofconcept\R%24string.class" />
+    <None Include="ProofOfConcept\obj\Debug\android\bin\classes\proofofconcept\proofofconcept\R.class" />
+    <None Include="ProofOfConcept\obj\Debug\android\bin\packaged_resources" />
+    <None Include="ProofOfConcept\obj\Debug\android\typemap.jm" />
+    <None Include="ProofOfConcept\obj\Debug\android\typemap.mj" />
+    <None Include="ProofOfConcept\obj\Debug\build.props" />
+    <None Include="ProofOfConcept\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="ProofOfConcept\obj\Debug\libraryimports.cache" />
+    <None Include="ProofOfConcept\obj\Debug\libraryprojectimports.cache" />
+    <None Include="ProofOfConcept\obj\Debug\link.flag" />
+    <None Include="ProofOfConcept\obj\Debug\R.cs.flag" />
+    <None Include="ProofOfConcept\obj\Debug\resourcepaths.cache" />
+    <None Include="ProofOfConcept\obj\Debug\res\drawable-hdpi\thumbs.db" />
+    <None Include="ProofOfConcept\obj\Debug\res\drawable-ldpi\thumbs.db" />
+    <None Include="ProofOfConcept\obj\Debug\res\drawable-mdpi\thumbs.db" />
+    <None Include="ProofOfConcept\obj\Debug\res\drawable-xhdpi\thumbs.db" />
+    <None Include="ProofOfConcept\obj\Debug\scan.flag" />
+    <None Include="ProofOfConcept\obj\Debug\sdks.cache" />
+    <None Include="ProofOfConcept\obj\Debug\static.flag" />
+    <None Include="ProofOfConcept\obj\Debug\strip.flag" />
+    <None Include="ProofOfConcept\obj\Debug\_dex_stamp" />
+    <None Include="ProofOfConcept\obj\Release\android\assets\machine.config" />
+    <None Include="ProofOfConcept\obj\Release\android\assets\shrunk\shrunk.flag" />
+    <None Include="ProofOfConcept\obj\Release\android\bin\classes.dex" />
+    <None Include="ProofOfConcept\obj\Release\android\bin\classes\md50ce351d74ce3953d1fb4f533392015c7\MainActivity.class" />
+    <None Include="ProofOfConcept\obj\Release\android\bin\classes\mono\android\app\Application%24NotifyTimeZoneChanges.class" />
+    <None Include="ProofOfConcept\obj\Release\android\bin\classes\mono\android\app\Application.class" />
+    <None Include="ProofOfConcept\obj\Release\android\bin\classes\mono\MonoPackageManager.class" />
+    <None Include="ProofOfConcept\obj\Release\android\bin\classes\mono\MonoPackageManager_Resources.class" />
+    <None Include="ProofOfConcept\obj\Release\android\bin\classes\mono\MonoRuntimeProvider.class" />
+    <None Include="ProofOfConcept\obj\Release\android\bin\classes\proofofconcept\proofofconcept\R%24attr.class" />
+    <None Include="ProofOfConcept\obj\Release\android\bin\classes\proofofconcept\proofofconcept\R%24drawable.class" />
+    <None Include="ProofOfConcept\obj\Release\android\bin\classes\proofofconcept\proofofconcept\R%24id.class" />
+    <None Include="ProofOfConcept\obj\Release\android\bin\classes\proofofconcept\proofofconcept\R%24layout.class" />
+    <None Include="ProofOfConcept\obj\Release\android\bin\classes\proofofconcept\proofofconcept\R%24string.class" />
+    <None Include="ProofOfConcept\obj\Release\android\bin\classes\proofofconcept\proofofconcept\R.class" />
+    <None Include="ProofOfConcept\obj\Release\android\bin\packaged_resources" />
+    <None Include="ProofOfConcept\obj\Release\android\bin\ProofOfConcept.ProofOfConcept.apk" />
+    <None Include="ProofOfConcept\obj\Release\android\bin\resources_and_assemblies" />
+    <None Include="ProofOfConcept\obj\Release\android\typemap.jm" />
+    <None Include="ProofOfConcept\obj\Release\android\typemap.mj" />
+    <None Include="ProofOfConcept\obj\Release\android_debug_keystore.flag" />
+    <None Include="ProofOfConcept\obj\Release\build.props" />
+    <None Include="ProofOfConcept\obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="ProofOfConcept\obj\Release\libraryimports.cache" />
+    <None Include="ProofOfConcept\obj\Release\libraryprojectimports.cache" />
+    <None Include="ProofOfConcept\obj\Release\link.flag" />
+    <None Include="ProofOfConcept\obj\Release\R.cs.flag" />
+    <None Include="ProofOfConcept\obj\Release\resourcepaths.cache" />
+    <None Include="ProofOfConcept\obj\Release\res\drawable-hdpi\thumbs.db" />
+    <None Include="ProofOfConcept\obj\Release\res\drawable-ldpi\thumbs.db" />
+    <None Include="ProofOfConcept\obj\Release\res\drawable-mdpi\thumbs.db" />
+    <None Include="ProofOfConcept\obj\Release\res\drawable-xhdpi\thumbs.db" />
+    <None Include="ProofOfConcept\obj\Release\scan.flag" />
+    <None Include="ProofOfConcept\obj\Release\sdks.cache" />
+    <None Include="ProofOfConcept\obj\Release\static.flag" />
+    <None Include="ProofOfConcept\obj\Release\strip.flag" />
+    <None Include="ProofOfConcept\obj\Release\_dex_stamp" />
+    <None Include="ProofOfConcept\packages.config" />
+    <None Include="ProofOfConcept\PhoneTranslator-Aligned.apk" />
+    <None Include="ProofOfConcept\Resources\drawable-hdpi\Thumbs.db" />
+    <None Include="ProofOfConcept\Resources\drawable-ldpi\Thumbs.db" />
+    <None Include="ProofOfConcept\Resources\drawable-mdpi\Thumbs.db" />
+    <None Include="ProofOfConcept\Resources\drawable-xhdpi\Thumbs.db" />
+    <None Include="ProofOfConcept\Resources\layout\Main.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ProofOfConcept\MainActivity.cs" />
+    <Compile Include="ProofOfConcept\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="ProofOfConcept\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="ProofOfConcept\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="ProofOfConcept\obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="ProofOfConcept\obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="ProofOfConcept\obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="ProofOfConcept\PhoneTranslator.cs" />
+    <Compile Include="ProofOfConcept\Properties\AssemblyInfo.cs" />
+    <Compile Include="ProofOfConcept\Resources\Resource.designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\objects\pack\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include="ProofOfConcept\obj\Debug\proguard\" />
+    <Folder Include="ProofOfConcept\obj\Debug\TempPE\" />
+    <Folder Include="ProofOfConcept\obj\Debug\__library_projects__\" />
+    <Folder Include="ProofOfConcept\obj\Release\proguard\" />
+    <Folder Include="ProofOfConcept\obj\Release\TempPE\" />
+    <Folder Include="ProofOfConcept\obj\Release\__library_projects__\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>
