@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+<<<<<<< HEAD
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProofOfConcept", "ProofOfConcept\ProofOfConcept.csproj", "{64351191-0768-41B8-A3C8-5C7A69F33479}"
+=======
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProofOfConcept", "ProofOfConcept\ProofOfConcept.csproj", "{7A7C23CB-6519-4517-842D-6641DCF03471}"
+>>>>>>> b6cee498860bdb7d3f6bc287d46ed66d365c7c2c
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,6 +16,7 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< HEAD
 		{64351191-0768-41B8-A3C8-5C7A69F33479}.Debug|Any CPU.ActiveCfg = Release|Any CPU
 		{64351191-0768-41B8-A3C8-5C7A69F33479}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{64351191-0768-41B8-A3C8-5C7A69F33479}.Debug|Any CPU.Deploy.0 = Release|Any CPU
@@ -20,5 +26,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+=======
+		{7A7C23CB-6519-4517-842D-6641DCF03471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A7C23CB-6519-4517-842D-6641DCF03471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A7C23CB-6519-4517-842D-6641DCF03471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A7C23CB-6519-4517-842D-6641DCF03471}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> b6cee498860bdb7d3f6bc287d46ed66d365c7c2c
 	EndGlobalSection
 EndGlobal

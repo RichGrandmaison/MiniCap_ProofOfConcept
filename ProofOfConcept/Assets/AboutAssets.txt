@@ -1,7 +1,11 @@
 Any raw assets you want to be deployed with your application can be placed in
 this directory (and child directories) and given a Build Action of "AndroidAsset".
 
+<<<<<<< HEAD
 These files will be deployed with you package and will be accessible using Android's
+=======
+These files will be deployed with your package and will be accessible using Android's
+>>>>>>> b6cee498860bdb7d3f6bc287d46ed66d365c7c2c
 AssetManager, like this:
 
 public class ReadAsset : Activity
@@ -16,4 +20,8 @@ public class ReadAsset : Activity
 
 Additionally, some Android functions will automatically load asset files:
 
+<<<<<<< HEAD
 Typeface tf = Typeface.CreateFromAsset (Context.Assets, "fonts/samplefont.ttf");
+=======
+Typeface tf = Typeface.CreateFromAsset (Context.Assets, "fonts/samplefont.ttf");
+>>>>>>> b6cee498860bdb7d3f6bc287d46ed66d365c7c2c

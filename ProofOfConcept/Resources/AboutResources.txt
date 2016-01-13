@@ -41,4 +41,8 @@ public class R {
 
 You would then use R.drawable.icon to reference the drawable/icon.png file, or R.layout.main 
 to reference the layout/main.axml file, or R.strings.first_string to reference the first 
+<<<<<<< HEAD
 string in the dictionary file values/strings.xml.
+=======
+string in the dictionary file values/strings.xml.
+>>>>>>> b6cee498860bdb7d3f6bc287d46ed66d365c7c2c
