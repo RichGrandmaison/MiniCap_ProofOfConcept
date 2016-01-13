@@ -1,0 +1,15 @@
+c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\bin\Debug\ProofOfConcept.dll
+c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\bin\Debug\ProofOfConcept.pdb
+c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\bin\Debug\ProofOfConcept.ProofOfConcept.apk
+c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\bin\Debug\ProofOfConcept.ProofOfConcept-Signed.apk
+c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\ProofOfConcept.csprojResolveAssemblyReference.cache
+c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\ProofOfConcept.dll
+c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\ProofOfConcept.pdb
+c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\android\bin\ProofOfConcept.ProofOfConcept.apk
+c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\res\layout\main.xml
+c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\res\values\strings.xml
+c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\res\drawable\icon.png
+c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\R.cs.flag
+c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\uploadflags.txt
+c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\ProofOfConcept.dll.mdb
+c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\bin\Debug\ProofOfConcept.dll.mdb
