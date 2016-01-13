@@ -2,7 +2,6 @@ c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\bin\Debug\ProofOfConcept.dl
 c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\bin\Debug\ProofOfConcept.pdb
 c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\bin\Debug\ProofOfConcept.ProofOfConcept.apk
 c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\bin\Debug\ProofOfConcept.ProofOfConcept-Signed.apk
-c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\ProofOfConcept.csprojResolveAssemblyReference.cache
 c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\ProofOfConcept.dll
 c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\ProofOfConcept.pdb
 c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\android\bin\ProofOfConcept.ProofOfConcept.apk
@@ -11,5 +10,15 @@ c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\res\values\string
 c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\res\drawable\icon.png
 c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\R.cs.flag
 c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\uploadflags.txt
-c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\ProofOfConcept.dll.mdb
-c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\bin\Debug\ProofOfConcept.dll.mdb
+c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\res\drawable-hdpi\thumbs.db
+c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\res\drawable-ldpi\thumbs.db
+c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\res\drawable-mdpi\thumbs.db
+c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\res\drawable-xhdpi\thumbs.db
+c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\res\drawable-hdpi\icon.png
+c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\res\drawable-ldpi\icon.png
+c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\res\drawable-mdpi\icon.png
+c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\res\drawable-xhdpi\icon.png
+c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\res\drawable-xxhdpi\icon.png
+c:\users\rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\res\drawable-xxxhdpi\icon.png
+C:\Users\Rich\Projects\ProofOfConcept\ProofOfConcept\obj\Debug\ProofOfConcept.dll.mdb
+C:\Users\Rich\Projects\ProofOfConcept\ProofOfConcept\bin\Debug\ProofOfConcept.dll.mdb

@@ -1,0 +1,4 @@
+ProofOfConcept.MainActivity, ProofOfConcept;md50ce351d74ce3953d1fb4f533392015c7.MainActivity
+ProofOfConcept.MainActivity, ProofOfConcept, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50ce351d74ce3953d1fb4f533392015c7.MainActivity
+ProofOfConcept.MainActivity;md50ce351d74ce3953d1fb4f533392015c7.MainActivity
+proofofconcept.MainActivity;md50ce351d74ce3953d1fb4f533392015c7.MainActivity
