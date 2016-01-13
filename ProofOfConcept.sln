@@ -1,36 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-<<<<<<< HEAD
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProofOfConcept", "ProofOfConcept\ProofOfConcept.csproj", "{64351191-0768-41B8-A3C8-5C7A69F33479}"
-=======
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProofOfConcept", "ProofOfConcept\ProofOfConcept.csproj", "{7A7C23CB-6519-4517-842D-6641DCF03471}"
->>>>>>> b6cee498860bdb7d3f6bc287d46ed66d365c7c2c
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProofOfConcept", "ProofOfConcept.csproj", "{18201BEB-3A3B-43DF-90BA-9723F65FAF2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "New Folder", "New Folder", "{982163A6-2FFB-4FF8-8924-821AA0EFD6FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-<<<<<<< HEAD
-		{64351191-0768-41B8-A3C8-5C7A69F33479}.Debug|Any CPU.ActiveCfg = Release|Any CPU
-		{64351191-0768-41B8-A3C8-5C7A69F33479}.Debug|Any CPU.Build.0 = Release|Any CPU
-		{64351191-0768-41B8-A3C8-5C7A69F33479}.Debug|Any CPU.Deploy.0 = Release|Any CPU
-		{64351191-0768-41B8-A3C8-5C7A69F33479}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{64351191-0768-41B8-A3C8-5C7A69F33479}.Release|Any CPU.Build.0 = Release|Any CPU
-		{64351191-0768-41B8-A3C8-5C7A69F33479}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{18201BEB-3A3B-43DF-90BA-9723F65FAF2F}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{18201BEB-3A3B-43DF-90BA-9723F65FAF2F}.Debug|x86.ActiveCfg = Debug|x86
+		{18201BEB-3A3B-43DF-90BA-9723F65FAF2F}.Debug|x86.Build.0 = Debug|x86
+		{18201BEB-3A3B-43DF-90BA-9723F65FAF2F}.Release|Any CPU.ActiveCfg = Release|x86
+		{18201BEB-3A3B-43DF-90BA-9723F65FAF2F}.Release|x86.ActiveCfg = Release|x86
+		{18201BEB-3A3B-43DF-90BA-9723F65FAF2F}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-=======
-		{7A7C23CB-6519-4517-842D-6641DCF03471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7A7C23CB-6519-4517-842D-6641DCF03471}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7A7C23CB-6519-4517-842D-6641DCF03471}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7A7C23CB-6519-4517-842D-6641DCF03471}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> b6cee498860bdb7d3f6bc287d46ed66d365c7c2c
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.StandardHeader = $1
+		$1.Text = 
+		$1.IncludeInNewFiles = True
 	EndGlobalSection
 EndGlobal
